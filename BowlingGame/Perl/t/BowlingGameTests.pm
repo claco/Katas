@@ -56,9 +56,9 @@ sub test_one_strike : Test {
 }
 
 sub test_perfect_game : Test {
-    rollMany(12, 10);
-    
-    is($game->score, 300);
-};
+    rollMany( 12, 10 );
+
+    is( $game->score, 300 );
+}
 
 1;

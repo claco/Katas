@@ -2,13 +2,31 @@ package BowlingGame;
 use strict;
 use warnings;
 
+=head2 new
+
+Creates a new game.
+
+=cut
+
 sub new {
     return bless { rolls => [] }, shift;
 }
 
+=head2 roll
+
+Records a roll in the current game.
+
+=cut
+
 sub roll {
     push @{ shift->{rolls} }, shift;
 }
+
+=head2 score
+
+Calculates the score of the current game.
+
+=cut
 
 sub score {
     my $total = 0;
