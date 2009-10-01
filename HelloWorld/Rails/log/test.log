@@ -1,0 +1,857 @@
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:15:12) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:15:19) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:17:29) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:17:33) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:18:40) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:18:48) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:19:57) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:20:18) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:20:26) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:22:52) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:22:54) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:35) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:35) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:39) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:39) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:40) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:40) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:51) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:23:51) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:24:13) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:24:13) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:24:28) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:24:28) [GET]
+Rendering hello/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:24:50) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:24:50) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:25:03) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:25:03) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:25:09) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:25:09) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:26:45) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:26:45) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:26:47) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:26:47) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:26:54) [GET]
+Rendering hello/index
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:26:54) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:27:41) [GET]
+Rendering hello/index
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:27:41) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:27:51) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:27:51) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:28:44) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:28:44) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:28:50) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:28:50) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:19) [GET]
+Rendering hello/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:19) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:27) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:27) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:52) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:52) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:53) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:29:53) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:38:38) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:38:38) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:38:38) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:38:45) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:38:45) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:38:45) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:40:59) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:40:59) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:40:59) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:41:14) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:41:14) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:41:14) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:42:50) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:42:50) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:42:50) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:42:59) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:42:59) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:42:59) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:43:16) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:43:16) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:43:16) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:49:52) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:49:52) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:49:52) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:49:59) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:49:59) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:49:59) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:38) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:38) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:38) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:40) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:40) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:40) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:51) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:51) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:51) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:53) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:53) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:50:53) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:10) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:10) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:10) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:27) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:27) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:27) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:28) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:28) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:28) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:43) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:43) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:43) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:44) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:44) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:51:44) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:00) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:00) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:00) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:03) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:03) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:03) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:07) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:07) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:07) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:35) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:35) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:35) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:37) [GET]
+Rendering hello/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:37) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:52:37) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:11) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:11) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:11) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:17) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:17) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:17) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:19) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:19) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:57:19) [GET]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:58:44) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:58:44) [GET]
+Rendering hello/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:58:44) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:58:49) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:58:49) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 21:58:49) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:00:56) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:00:56) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:00:56) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:17) [GET]
+Rendering hello/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:17) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:17) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:19) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:19) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:19) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:29) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:29) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:29) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:31) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:31) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:01:31) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:05:21) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:05:21) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:05:21) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:35) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:35) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:35) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:37) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:37) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:37) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:58) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:58) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:09:58) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello?greeting=chris]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:10:00) [GET]
+Rendering hello/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:10:00) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:10:00) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello?greeting=chris]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:10:00) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:10:00) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:10:00) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello?greeting=chris]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:16:28) [GET]
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:16:28) [GET]
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:16:28) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/hello/chris]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:17:36) [GET]
+Rendering hello/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:17:36) [GET]
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello]
+
+
+Processing HelloController#index (for 0.0.0.0 at 2009-09-30 22:17:36) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/hello/chris]

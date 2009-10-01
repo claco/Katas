@@ -1,0 +1,93 @@
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (16.5ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-09-30 22:10:32) [GET]
+Rendering hello/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/hello]
+
+
+Processing HelloController#chris (for 127.0.0.1 at 2009-09-30 22:10:36) [GET]
+
+ActionController::UnknownAction (No action responded to chris. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HelloController#chris (for 127.0.0.1 at 2009-09-30 22:10:55) [GET]
+
+ActionController::UnknownAction (No action responded to chris. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HelloController#chris (for 127.0.0.1 at 2009-09-30 22:11:25) [GET]
+
+ActionController::UnknownAction (No action responded to chris. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-09-30 22:13:54) [GET]
+Rendering hello/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/hello/]
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-09-30 22:13:57) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/hello/chris]
+
+
+Processing HelloController#chris (for 127.0.0.1 at 2009-09-30 22:14:01) [GET]
+  Parameters: {"id"=>"bar"}
+
+ActionController::UnknownAction (No action responded to chris. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2009-09-30 22:14:06) [GET]
+  Parameters: {"greeting"=>"chris"}
+Rendering hello/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/hello/chris/]
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m

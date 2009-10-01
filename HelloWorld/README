@@ -1,0 +1,6 @@
+Code Kata for displaying "Hello World" on the web.
+
+Site should:
+
+     - Display "Hello World" for /hello
+     - Display "Hellow x" for /hello/x
