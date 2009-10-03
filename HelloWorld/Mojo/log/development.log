@@ -1,0 +1,310 @@
+Sat Oct  3 10:12:08 2009 info Mojo::Server::Daemon:56 [897]: Server started (http://127.0.0.1:3000)
+Sat Oct  3 10:12:18 2009 debug Mojolicious:72 [897]: *** Request for "/". ***
+Sat Oct  3 10:12:18 2009 debug MojoX::Dispatcher::Routes:90 [897]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:12:18 2009 debug Mojolicious:123 [897]: Request took 0.015914 seconds (62.838/s).
+Sat Oct  3 10:12:18 2009 debug Mojolicious:72 [897]: *** Request for "/favicon.ico". ***
+Sat Oct  3 10:12:18 2009 debug MojoX::Dispatcher::Routes:90 [897]: Dispatching "HelloWorld::Favicon::welcome".
+Sat Oct  3 10:12:18 2009 error Mojolicious::Renderer:60 [897]: Template "favicon/welcome.ico.epl" missing or not readable.
+Sat Oct  3 10:12:18 2009 debug Mojolicious:123 [897]: Request took 0.001482 seconds (674.764/s).
+Sat Oct  3 10:15:03 2009 debug Mojolicious:72 [929]: *** Request for "/". ***
+Sat Oct  3 10:15:03 2009 debug MojoX::Dispatcher::Routes:90 [929]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:15:03 2009 debug Mojolicious:123 [929]: Request took 0.011690 seconds (85.543/s).
+Sat Oct  3 10:16:22 2009 debug Mojolicious:72 [947]: *** Request for "/". ***
+Sat Oct  3 10:16:22 2009 debug MojoX::Dispatcher::Routes:90 [947]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:16:22 2009 debug Mojolicious:123 [947]: Request took 0.011723 seconds (85.302/s).
+Sat Oct  3 10:16:22 2009 debug Mojolicious:72 [948]: *** Request for "/hello". ***
+Sat Oct  3 10:16:22 2009 debug MojoX::Dispatcher::Routes:90 [948]: Dispatching "HelloWorld::Hello::welcome".
+Sat Oct  3 10:16:22 2009 error Mojolicious::Renderer:60 [948]: Template "hello/welcome.html.epl" missing or not readable.
+Sat Oct  3 10:16:22 2009 debug Mojolicious:123 [948]: Request took 0.002969 seconds (336.814/s).
+Sat Oct  3 10:18:21 2009 debug Mojolicious:72 [964]: *** Request for "/". ***
+Sat Oct  3 10:18:21 2009 debug MojoX::Dispatcher::Routes:90 [964]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:18:21 2009 debug Mojolicious:123 [964]: Request took 0.011818 seconds (84.617/s).
+Sat Oct  3 10:18:21 2009 debug Mojolicious:72 [965]: *** Request for "/hello". ***
+Sat Oct  3 10:18:21 2009 debug MojoX::Dispatcher::Routes:90 [965]: Dispatching "HelloWorld::Hello::welcome".
+Sat Oct  3 10:18:21 2009 error MojoX::Dispatcher::Routes:136 [965]: Error around line 125.
+123: 
+124:         # Call action
+125:         $continue = $new->$method;
+126: 
+127:         # Copy stash
+Can't locate object method "welcome" via package "HelloWorld::Hello" at /Users/claco/perl5/lib/perl5/MojoX/Dispatcher/Routes.pm line 125.
+
+Sat Oct  3 10:18:21 2009 debug Mojolicious:123 [965]: Request took 0.018646 seconds (53.631/s).
+Sat Oct  3 10:18:31 2009 debug Mojolicious:72 [975]: *** Request for "/". ***
+Sat Oct  3 10:18:31 2009 debug MojoX::Dispatcher::Routes:90 [975]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:18:31 2009 debug Mojolicious:123 [975]: Request took 0.011872 seconds (84.232/s).
+Sat Oct  3 10:18:31 2009 debug Mojolicious:72 [976]: *** Request for "/hello". ***
+Sat Oct  3 10:18:31 2009 debug MojoX::Dispatcher::Routes:90 [976]: Dispatching "HelloWorld::Hello::welcome".
+Sat Oct  3 10:18:31 2009 error MojoX::Dispatcher::Routes:136 [976]: Error around line 125.
+123: 
+124:         # Call action
+125:         $continue = $new->$method;
+126: 
+127:         # Copy stash
+Can't locate object method "welcome" via package "HelloWorld::Hello" at /Users/claco/perl5/lib/perl5/MojoX/Dispatcher/Routes.pm line 125.
+
+Sat Oct  3 10:18:31 2009 debug Mojolicious:123 [976]: Request took 0.019068 seconds (52.444/s).
+Sat Oct  3 10:18:58 2009 debug Mojolicious:72 [981]: *** Request for "/". ***
+Sat Oct  3 10:18:58 2009 debug MojoX::Dispatcher::Routes:90 [981]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:18:58 2009 debug Mojolicious:123 [981]: Request took 0.011830 seconds (84.531/s).
+Sat Oct  3 10:18:58 2009 debug Mojolicious:72 [982]: *** Request for "/hello". ***
+Sat Oct  3 10:18:58 2009 debug MojoX::Dispatcher::Routes:90 [982]: Dispatching "HelloWorld::Hello::welcome".
+Sat Oct  3 10:18:58 2009 error Mojolicious::Renderer:60 [982]: Template "hello/welcome.html.epl" missing or not readable.
+Sat Oct  3 10:18:58 2009 debug Mojolicious:123 [982]: Request took 0.002970 seconds (336.700/s).
+Sat Oct  3 10:21:26 2009 debug Mojolicious:72 [1000]: *** Request for "/". ***
+Sat Oct  3 10:21:26 2009 debug MojoX::Dispatcher::Routes:90 [1000]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:21:26 2009 debug Mojolicious:123 [1000]: Request took 0.012222 seconds (81.820/s).
+Sat Oct  3 10:21:26 2009 debug Mojolicious:72 [1001]: *** Request for "/hello". ***
+Sat Oct  3 10:21:26 2009 debug MojoX::Dispatcher::Routes:90 [1001]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:21:26 2009 error Mojolicious::Renderer:60 [1001]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:21:26 2009 debug Mojolicious:123 [1001]: Request took 0.003545 seconds (282.087/s).
+Sat Oct  3 10:22:14 2009 debug Mojolicious:72 [1007]: *** Request for "/". ***
+Sat Oct  3 10:22:14 2009 debug MojoX::Dispatcher::Routes:90 [1007]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:22:14 2009 debug Mojolicious:123 [1007]: Request took 0.012256 seconds (81.593/s).
+Sat Oct  3 10:22:14 2009 debug Mojolicious:72 [1008]: *** Request for "/hello". ***
+Sat Oct  3 10:22:14 2009 debug MojoX::Dispatcher::Routes:90 [1008]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:22:14 2009 error Mojolicious::Renderer:60 [1008]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:22:14 2009 debug Mojolicious:123 [1008]: Request took 0.003755 seconds (266.312/s).
+Sat Oct  3 10:22:35 2009 debug Mojolicious:72 [1014]: *** Request for "/". ***
+Sat Oct  3 10:22:35 2009 debug MojoX::Dispatcher::Routes:90 [1014]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:22:35 2009 debug Mojolicious:123 [1014]: Request took 0.011881 seconds (84.168/s).
+Sat Oct  3 10:22:35 2009 debug Mojolicious:72 [1015]: *** Request for "/hello". ***
+Sat Oct  3 10:22:35 2009 debug MojoX::Dispatcher::Routes:90 [1015]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:22:35 2009 error Mojolicious::Renderer:60 [1015]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:22:35 2009 debug Mojolicious:123 [1015]: Request took 0.003282 seconds (304.692/s).
+Sat Oct  3 10:23:40 2009 debug Mojolicious:72 [1020]: *** Request for "/". ***
+Sat Oct  3 10:23:40 2009 debug MojoX::Dispatcher::Routes:90 [1020]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:23:40 2009 debug Mojolicious:123 [1020]: Request took 0.013828 seconds (72.317/s).
+Sat Oct  3 10:23:40 2009 debug Mojolicious:72 [1021]: *** Request for "/hello". ***
+Sat Oct  3 10:23:40 2009 debug MojoX::Dispatcher::Routes:90 [1021]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:23:40 2009 error Mojolicious::Renderer:60 [1021]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:23:40 2009 debug Mojolicious:123 [1021]: Request took 0.003427 seconds (291.800/s).
+Sat Oct  3 10:23:46 2009 info Mojo::Server::Daemon:56 [1026]: Server started (http://127.0.0.1:3000)
+Sat Oct  3 10:24:09 2009 debug Mojolicious:72 [1026]: *** Request for "/". ***
+Sat Oct  3 10:24:09 2009 debug MojoX::Dispatcher::Routes:90 [1026]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:24:09 2009 debug Mojolicious:123 [1026]: Request took 0.017864 seconds (55.979/s).
+Sat Oct  3 10:24:13 2009 debug Mojolicious:72 [1026]: *** Request for "/hello". ***
+Sat Oct  3 10:24:13 2009 debug MojoX::Dispatcher::Routes:90 [1026]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:24:13 2009 error Mojolicious::Renderer:60 [1026]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:24:13 2009 debug Mojolicious:123 [1026]: Request took 0.002903 seconds (344.471/s).
+Sat Oct  3 10:24:16 2009 debug Mojolicious:72 [1026]: *** Request for "/hello/". ***
+Sat Oct  3 10:24:16 2009 debug MojoX::Dispatcher::Routes:90 [1026]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:24:16 2009 error Mojolicious::Renderer:60 [1026]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:24:16 2009 debug Mojolicious:123 [1026]: Request took 0.001962 seconds (509.684/s).
+Sat Oct  3 10:24:20 2009 debug Mojolicious:72 [1026]: *** Request for "/hello/sasdasd". ***
+Sat Oct  3 10:24:20 2009 debug MojoX::Dispatcher::Routes:90 [1026]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:24:20 2009 error Mojolicious::Renderer:60 [1026]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:24:20 2009 debug Mojolicious:123 [1026]: Request took 0.001777 seconds (562.746/s).
+Sat Oct  3 10:24:46 2009 info Mojo::Server::Daemon:56 [1033]: Server started (http://127.0.0.1:3000)
+Sat Oct  3 10:24:48 2009 debug Mojolicious:72 [1033]: *** Request for "/hello/sasdasd". ***
+Sat Oct  3 10:24:48 2009 debug MojoX::Dispatcher::Routes:90 [1033]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:24:48 2009 error Mojolicious::Renderer:60 [1033]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:24:48 2009 debug Mojolicious:123 [1033]: Request took 0.005723 seconds (174.734/s).
+Sat Oct  3 10:24:50 2009 debug Mojolicious:72 [1033]: *** Request for "/hello/". ***
+Sat Oct  3 10:24:50 2009 debug MojoX::Dispatcher::Routes:90 [1033]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:24:50 2009 error Mojolicious::Renderer:60 [1033]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:24:50 2009 debug Mojolicious:123 [1033]: Request took 0.001327 seconds (753.580/s).
+Sat Oct  3 10:25:04 2009 info Mojo::Server::Daemon:56 [1037]: Server started (http://127.0.0.1:3000)
+Sat Oct  3 10:25:08 2009 debug Mojolicious:72 [1042]: *** Request for "/". ***
+Sat Oct  3 10:25:08 2009 debug MojoX::Dispatcher::Routes:90 [1042]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:25:08 2009 debug Mojolicious:123 [1042]: Request took 0.012004 seconds (83.306/s).
+Sat Oct  3 10:25:08 2009 debug Mojolicious:72 [1043]: *** Request for "/hello". ***
+Sat Oct  3 10:25:08 2009 debug MojoX::Dispatcher::Routes:90 [1043]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:25:08 2009 error Mojolicious::Renderer:60 [1043]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:25:08 2009 debug Mojolicious:123 [1043]: Request took 0.003407 seconds (293.513/s).
+Sat Oct  3 10:25:29 2009 info Mojo::Server::Daemon:56 [1047]: Server started (http://127.0.0.1:3000)
+Sat Oct  3 10:25:32 2009 debug Mojolicious:72 [1052]: *** Request for "/". ***
+Sat Oct  3 10:25:32 2009 debug MojoX::Dispatcher::Routes:90 [1052]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:25:32 2009 debug Mojolicious:123 [1052]: Request took 0.012609 seconds (79.308/s).
+Sat Oct  3 10:25:32 2009 debug Mojolicious:72 [1053]: *** Request for "/hello". ***
+Sat Oct  3 10:25:32 2009 debug MojoX::Dispatcher::Routes:90 [1053]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:25:32 2009 error Mojolicious::Renderer:60 [1053]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:25:32 2009 debug Mojolicious:123 [1053]: Request took 0.003239 seconds (308.737/s).
+Sat Oct  3 10:29:00 2009 debug Mojolicious:72 [1058]: *** Request for "/". ***
+Sat Oct  3 10:29:00 2009 debug MojoX::Dispatcher::Routes:90 [1058]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:29:00 2009 debug Mojolicious:123 [1058]: Request took 0.012004 seconds (83.306/s).
+Sat Oct  3 10:29:00 2009 debug Mojolicious:72 [1059]: *** Request for "/hello". ***
+Sat Oct  3 10:29:00 2009 debug MojoX::Dispatcher::Routes:90 [1059]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:29:00 2009 error Mojolicious::Renderer:60 [1059]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:29:00 2009 debug Mojolicious:123 [1059]: Request took 0.003345 seconds (298.954/s).
+Sat Oct  3 10:29:21 2009 debug Mojolicious:72 [1065]: *** Request for "/". ***
+Sat Oct  3 10:29:21 2009 debug MojoX::Dispatcher::Routes:90 [1065]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:29:21 2009 debug Mojolicious:123 [1065]: Request took 0.012038 seconds (83.070/s).
+Sat Oct  3 10:29:21 2009 debug Mojolicious:72 [1066]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:29:21 2009 debug MojoX::Dispatcher::Routes:90 [1066]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:29:21 2009 error Mojolicious::Renderer:60 [1066]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:29:21 2009 debug Mojolicious:123 [1066]: Request took 0.003712 seconds (269.397/s).
+Sat Oct  3 10:29:50 2009 debug Mojolicious:72 [1071]: *** Request for "/". ***
+Sat Oct  3 10:29:50 2009 debug MojoX::Dispatcher::Routes:90 [1071]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:29:50 2009 debug Mojolicious:123 [1071]: Request took 0.011763 seconds (85.012/s).
+Sat Oct  3 10:29:50 2009 debug Mojolicious:72 [1072]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:29:50 2009 debug MojoX::Dispatcher::Routes:90 [1072]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:29:50 2009 error Mojolicious::Renderer:60 [1072]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:29:50 2009 debug Mojolicious:123 [1072]: Request took 0.003315 seconds (301.659/s).
+Sat Oct  3 10:33:26 2009 debug Mojolicious:72 [1080]: *** Request for "/". ***
+Sat Oct  3 10:33:26 2009 debug MojoX::Dispatcher::Routes:90 [1080]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:33:26 2009 debug Mojolicious:123 [1080]: Request took 0.012019 seconds (83.202/s).
+Sat Oct  3 10:33:26 2009 debug Mojolicious:72 [1081]: *** Request for "/hello/". ***
+Sat Oct  3 10:33:26 2009 debug MojoX::Dispatcher::Routes:90 [1081]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:33:26 2009 error Mojolicious::Renderer:60 [1081]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:33:26 2009 debug Mojolicious:123 [1081]: Request took 0.003186 seconds (313.873/s).
+Sat Oct  3 10:33:40 2009 debug Mojolicious:72 [1087]: *** Request for "/". ***
+Sat Oct  3 10:33:40 2009 debug MojoX::Dispatcher::Routes:90 [1087]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:33:40 2009 debug Mojolicious:123 [1087]: Request took 0.011977 seconds (83.493/s).
+Sat Oct  3 10:33:40 2009 debug Mojolicious:72 [1088]: *** Request for "/hello/". ***
+Sat Oct  3 10:33:40 2009 debug MojoX::Dispatcher::Routes:90 [1088]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:33:40 2009 error Mojolicious::Renderer:60 [1088]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:33:40 2009 debug Mojolicious:123 [1088]: Request took 0.003262 seconds (306.560/s).
+Sat Oct  3 10:33:56 2009 debug Mojolicious:72 [1093]: *** Request for "/". ***
+Sat Oct  3 10:33:56 2009 debug MojoX::Dispatcher::Routes:90 [1093]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:33:56 2009 debug Mojolicious:123 [1093]: Request took 0.011949 seconds (83.689/s).
+Sat Oct  3 10:33:57 2009 debug Mojolicious:72 [1094]: *** Request for "/hello/". ***
+Sat Oct  3 10:33:57 2009 debug MojoX::Dispatcher::Routes:90 [1094]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:33:57 2009 error Mojolicious::Renderer:60 [1094]: Template "hello/index.html.epl" missing or not readable.
+Sat Oct  3 10:33:57 2009 debug Mojolicious:123 [1094]: Request took 0.003240 seconds (308.642/s).
+Sat Oct  3 10:35:05 2009 debug Mojolicious:72 [1114]: *** Request for "/". ***
+Sat Oct  3 10:35:05 2009 debug MojoX::Dispatcher::Routes:90 [1114]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:35:05 2009 debug Mojolicious:123 [1114]: Request took 0.012025 seconds (83.160/s).
+Sat Oct  3 10:35:05 2009 debug Mojolicious:72 [1115]: *** Request for "/hello/". ***
+Sat Oct  3 10:35:05 2009 debug MojoX::Dispatcher::Routes:90 [1115]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:35:05 2009 debug Mojolicious:123 [1115]: Request took 0.011456 seconds (87.291/s).
+Sat Oct  3 10:36:50 2009 debug Mojolicious:72 [1123]: *** Request for "/". ***
+Sat Oct  3 10:36:50 2009 debug MojoX::Dispatcher::Routes:90 [1123]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:36:50 2009 debug Mojolicious:123 [1123]: Request took 0.011864 seconds (84.289/s).
+Sat Oct  3 10:36:50 2009 debug Mojolicious:72 [1124]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:36:50 2009 debug MojoX::Dispatcher::Routes:90 [1124]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:36:50 2009 debug Mojolicious:123 [1124]: Request took 0.011151 seconds (89.678/s).
+Sat Oct  3 10:40:15 2009 debug Mojolicious:72 [1130]: *** Request for "/". ***
+Sat Oct  3 10:40:15 2009 debug MojoX::Dispatcher::Routes:90 [1130]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:40:15 2009 debug Mojolicious:123 [1130]: Request took 0.011896 seconds (84.062/s).
+Sat Oct  3 10:40:15 2009 debug Mojolicious:72 [1131]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:40:15 2009 debug MojoX::Dispatcher::Routes:90 [1131]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:40:15 2009 debug Mojolicious:123 [1131]: Request took 0.011378 seconds (87.889/s).
+Sat Oct  3 10:40:53 2009 debug Mojolicious:72 [1137]: *** Request for "/". ***
+Sat Oct  3 10:40:53 2009 debug MojoX::Dispatcher::Routes:90 [1137]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:40:53 2009 debug Mojolicious:123 [1137]: Request took 0.011982 seconds (83.459/s).
+Sat Oct  3 10:40:53 2009 debug Mojolicious:72 [1138]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:40:53 2009 debug MojoX::Dispatcher::Routes:90 [1138]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:40:53 2009 debug Mojolicious:123 [1138]: Request took 0.017604 seconds (56.805/s).
+Sat Oct  3 10:41:19 2009 debug Mojolicious:72 [1144]: *** Request for "/". ***
+Sat Oct  3 10:41:19 2009 debug MojoX::Dispatcher::Routes:90 [1144]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:41:19 2009 debug Mojolicious:123 [1144]: Request took 0.012104 seconds (82.617/s).
+Sat Oct  3 10:41:19 2009 debug Mojolicious:72 [1145]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:41:19 2009 debug MojoX::Dispatcher::Routes:90 [1145]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:41:19 2009 debug Mojolicious:123 [1145]: Request took 0.017543 seconds (57.003/s).
+Sat Oct  3 10:46:56 2009 debug Mojolicious:72 [1152]: *** Request for "/". ***
+Sat Oct  3 10:46:56 2009 debug MojoX::Dispatcher::Routes:90 [1152]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:46:56 2009 debug Mojolicious:123 [1152]: Request took 0.012177 seconds (82.122/s).
+Sat Oct  3 10:46:57 2009 debug Mojolicious:72 [1153]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:46:57 2009 debug MojoX::Dispatcher::Routes:90 [1153]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:46:57 2009 debug Mojolicious:123 [1153]: Request took 0.017404 seconds (57.458/s).
+Sat Oct  3 10:47:25 2009 debug Mojolicious:72 [1159]: *** Request for "/". ***
+Sat Oct  3 10:47:25 2009 debug MojoX::Dispatcher::Routes:90 [1159]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:47:25 2009 debug Mojolicious:123 [1159]: Request took 0.012262 seconds (81.553/s).
+Sat Oct  3 10:47:25 2009 debug Mojolicious:72 [1160]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:47:25 2009 debug MojoX::Dispatcher::Routes:90 [1160]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:47:25 2009 debug Mojolicious:123 [1160]: Request took 0.011471 seconds (87.176/s).
+Sat Oct  3 10:48:57 2009 debug Mojolicious:72 [1167]: *** Request for "/". ***
+Sat Oct  3 10:48:57 2009 debug MojoX::Dispatcher::Routes:90 [1167]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:48:57 2009 debug Mojolicious:123 [1167]: Request took 0.011855 seconds (84.353/s).
+Sat Oct  3 10:48:57 2009 debug Mojolicious:72 [1168]: *** Request for "/hello/foo". ***
+Sat Oct  3 10:48:57 2009 debug MojoX::Dispatcher::Routes:90 [1168]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:48:57 2009 debug Mojolicious:123 [1168]: Request took 0.011296 seconds (88.527/s).
+Sat Oct  3 10:51:31 2009 debug Mojolicious:72 [1174]: *** Request for "/". ***
+Sat Oct  3 10:51:31 2009 debug MojoX::Dispatcher::Routes:90 [1174]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:51:31 2009 debug Mojolicious:123 [1174]: Request took 0.011934 seconds (83.794/s).
+Sat Oct  3 10:51:31 2009 debug Mojolicious:72 [1175]: *** Request for "/hello". ***
+Sat Oct  3 10:51:31 2009 debug MojoX::Dispatcher::Routes:90 [1175]: Dispatching "HelloWorld::Hello::welcome".
+Sat Oct  3 10:51:31 2009 error MojoX::Dispatcher::Routes:136 [1175]: Error around line 125.
+123: 
+124:         # Call action
+125:         $continue = $new->$method;
+126: 
+127:         # Copy stash
+Can't locate object method "welcome" via package "HelloWorld::Hello" at /Users/claco/perl5/lib/perl5/MojoX/Dispatcher/Routes.pm line 125.
+
+Sat Oct  3 10:51:31 2009 debug Mojolicious:123 [1175]: Request took 0.018714 seconds (53.436/s).
+Sat Oct  3 10:53:23 2009 debug Mojolicious:72 [1181]: *** Request for "/". ***
+Sat Oct  3 10:53:23 2009 debug MojoX::Dispatcher::Routes:90 [1181]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:53:23 2009 debug Mojolicious:123 [1181]: Request took 0.012057 seconds (82.939/s).
+Sat Oct  3 10:53:23 2009 debug Mojolicious:72 [1182]: *** Request for "/hello". ***
+Sat Oct  3 10:53:23 2009 debug MojoX::Dispatcher::Routes:90 [1182]: Dispatching "HelloWorld::Hello::welcome".
+Sat Oct  3 10:53:23 2009 error MojoX::Dispatcher::Routes:136 [1182]: Error around line 125.
+123: 
+124:         # Call action
+125:         $continue = $new->$method;
+126: 
+127:         # Copy stash
+Can't locate object method "welcome" via package "HelloWorld::Hello" at /Users/claco/perl5/lib/perl5/MojoX/Dispatcher/Routes.pm line 125.
+
+Sat Oct  3 10:53:23 2009 debug Mojolicious:123 [1182]: Request took 0.018830 seconds (53.107/s).
+Sat Oct  3 10:53:53 2009 debug Mojolicious:72 [1188]: *** Request for "/". ***
+Sat Oct  3 10:53:53 2009 debug MojoX::Dispatcher::Routes:90 [1188]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:53:53 2009 debug Mojolicious:123 [1188]: Request took 0.012061 seconds (82.912/s).
+Sat Oct  3 10:53:53 2009 debug Mojolicious:72 [1189]: *** Request for "/hello". ***
+Sat Oct  3 10:53:53 2009 debug MojoX::Dispatcher::Routes:90 [1189]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:53:53 2009 debug Mojolicious:123 [1189]: Request took 0.011076 seconds (90.285/s).
+Sat Oct  3 10:54:30 2009 debug Mojolicious:72 [1197]: *** Request for "/". ***
+Sat Oct  3 10:54:30 2009 debug MojoX::Dispatcher::Routes:90 [1197]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:54:30 2009 debug Mojolicious:123 [1197]: Request took 0.011921 seconds (83.886/s).
+Sat Oct  3 10:54:30 2009 debug Mojolicious:72 [1198]: *** Request for "/hello". ***
+Sat Oct  3 10:54:30 2009 debug MojoX::Dispatcher::Routes:90 [1198]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:54:30 2009 error Mojolicious::Renderer:75 [1198]: Template error in "hello/index.html.epl": Error around line 1.
+1: <%= $self->stash('message') %>
+Can't locate object method "stash" via package "Mojo::Template" at (eval 210) line 1.
+
+Sat Oct  3 10:54:30 2009 debug Mojolicious:123 [1198]: Request took 0.020174 seconds (49.569/s).
+Sat Oct  3 10:54:52 2009 debug Mojolicious:72 [1204]: *** Request for "/". ***
+Sat Oct  3 10:54:52 2009 debug MojoX::Dispatcher::Routes:90 [1204]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:54:52 2009 debug Mojolicious:123 [1204]: Request took 0.011776 seconds (84.918/s).
+Sat Oct  3 10:54:52 2009 debug Mojolicious:72 [1205]: *** Request for "/hello". ***
+Sat Oct  3 10:54:52 2009 debug MojoX::Dispatcher::Routes:90 [1205]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:54:52 2009 debug Mojolicious:123 [1205]: Request took 0.011057 seconds (90.440/s).
+Sat Oct  3 10:55:05 2009 debug Mojolicious:72 [1210]: *** Request for "/". ***
+Sat Oct  3 10:55:05 2009 debug MojoX::Dispatcher::Routes:90 [1210]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:55:05 2009 debug Mojolicious:123 [1210]: Request took 0.011634 seconds (85.955/s).
+Sat Oct  3 10:55:05 2009 debug Mojolicious:72 [1211]: *** Request for "/hello". ***
+Sat Oct  3 10:55:05 2009 debug MojoX::Dispatcher::Routes:90 [1211]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:55:05 2009 debug Mojolicious:123 [1211]: Request took 0.011305 seconds (88.456/s).
+Sat Oct  3 10:55:53 2009 debug Mojolicious:72 [1216]: *** Request for "/". ***
+Sat Oct  3 10:55:53 2009 debug MojoX::Dispatcher::Routes:90 [1216]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:55:53 2009 debug Mojolicious:123 [1216]: Request took 0.011895 seconds (84.069/s).
+Sat Oct  3 10:55:54 2009 debug Mojolicious:72 [1217]: *** Request for "/hello". ***
+Sat Oct  3 10:55:54 2009 debug MojoX::Dispatcher::Routes:90 [1217]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:55:54 2009 debug Mojolicious:123 [1217]: Request took 0.011027 seconds (90.686/s).
+Sat Oct  3 10:56:18 2009 debug Mojolicious:72 [1223]: *** Request for "/". ***
+Sat Oct  3 10:56:18 2009 debug MojoX::Dispatcher::Routes:90 [1223]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:56:18 2009 debug Mojolicious:123 [1223]: Request took 0.011891 seconds (84.097/s).
+Sat Oct  3 10:56:18 2009 debug Mojolicious:72 [1224]: *** Request for "/hello". ***
+Sat Oct  3 10:56:18 2009 debug MojoX::Dispatcher::Routes:90 [1224]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:56:18 2009 debug Mojolicious:123 [1224]: Request took 0.011351 seconds (88.098/s).
+Sat Oct  3 10:56:18 2009 debug Mojolicious:72 [1224]: *** Request for "/hello/chris". ***
+Sat Oct  3 10:56:18 2009 debug MojoX::Dispatcher::Routes:90 [1224]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:56:18 2009 debug Mojolicious:123 [1224]: Request took 0.002088 seconds (478.927/s).
+Sat Oct  3 10:57:02 2009 debug Mojolicious:72 [1229]: *** Request for "/". ***
+Sat Oct  3 10:57:02 2009 debug MojoX::Dispatcher::Routes:90 [1229]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:57:02 2009 debug Mojolicious:123 [1229]: Request took 0.011678 seconds (85.631/s).
+Sat Oct  3 10:57:02 2009 debug Mojolicious:72 [1230]: *** Request for "/hello". ***
+Sat Oct  3 10:57:02 2009 debug MojoX::Dispatcher::Routes:90 [1230]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:57:02 2009 debug Mojolicious:123 [1230]: Request took 0.011111 seconds (90.001/s).
+Sat Oct  3 10:57:02 2009 debug Mojolicious:72 [1230]: *** Request for "/hello/chris". ***
+Sat Oct  3 10:57:02 2009 debug MojoX::Dispatcher::Routes:90 [1230]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:57:02 2009 debug Mojolicious:123 [1230]: Request took 0.002195 seconds (455.581/s).
+Sat Oct  3 10:57:06 2009 debug Mojolicious:72 [1236]: *** Request for "/". ***
+Sat Oct  3 10:57:06 2009 debug MojoX::Dispatcher::Routes:90 [1236]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:57:06 2009 debug Mojolicious:123 [1236]: Request took 0.011865 seconds (84.282/s).
+Sat Oct  3 10:57:06 2009 debug Mojolicious:72 [1237]: *** Request for "/hello". ***
+Sat Oct  3 10:57:06 2009 debug MojoX::Dispatcher::Routes:90 [1237]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:57:06 2009 debug Mojolicious:123 [1237]: Request took 0.011114 seconds (89.977/s).
+Sat Oct  3 10:57:06 2009 debug Mojolicious:72 [1237]: *** Request for "/hello/chris". ***
+Sat Oct  3 10:57:06 2009 debug MojoX::Dispatcher::Routes:90 [1237]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:57:06 2009 debug Mojolicious:123 [1237]: Request took 0.002082 seconds (480.307/s).
+Sat Oct  3 10:57:18 2009 debug Mojolicious:72 [1242]: *** Request for "/". ***
+Sat Oct  3 10:57:18 2009 debug MojoX::Dispatcher::Routes:90 [1242]: Dispatching "HelloWorld::Example::welcome".
+Sat Oct  3 10:57:18 2009 debug Mojolicious:123 [1242]: Request took 0.011945 seconds (83.717/s).
+Sat Oct  3 10:57:18 2009 debug Mojolicious:72 [1243]: *** Request for "/hello". ***
+Sat Oct  3 10:57:18 2009 debug MojoX::Dispatcher::Routes:90 [1243]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:57:18 2009 debug Mojolicious:123 [1243]: Request took 0.011097 seconds (90.114/s).
+Sat Oct  3 10:57:18 2009 debug Mojolicious:72 [1243]: *** Request for "/hello/chris". ***
+Sat Oct  3 10:57:18 2009 debug MojoX::Dispatcher::Routes:90 [1243]: Dispatching "HelloWorld::Hello::index".
+Sat Oct  3 10:57:18 2009 debug Mojolicious:123 [1243]: Request took 0.002146 seconds (465.983/s).

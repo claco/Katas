@@ -1,0 +1,2 @@
+% my $self = shift;
+<%= $self->stash('message') %>
