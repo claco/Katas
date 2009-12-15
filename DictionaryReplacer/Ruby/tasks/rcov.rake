@@ -12,3 +12,4 @@ Spec::Rake::SpecTask.new(:spec_rcov) do |t|
   t.rcov_dir = 'doc/output/coverage'
   t.rcov_opts = ['-t --exclude', 'spec,\.autotest,rcov.rb']
 end
+
