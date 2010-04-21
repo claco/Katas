@@ -30,7 +30,7 @@ sub set_item_defaults : Tests(3) {
 
 sub add_item_to_order : Test {
     $order->add( Item->new );
-    is( scalar @{$order->items}, 1 );
+    is( scalar @{ $order->items }, 1 );
 }
 
 sub have_food : Test {
@@ -89,12 +89,25 @@ sub input_1 : Tests {
 
     $order->calculate();
 
-    is( $order->items->[0]->total, 12.49);
-    is( $order->items->[1]->total, 16.49);
-    is( $order->items->[2]->total, 0.85);
-    
-    is( $order->tax,   1.50 );
-    is( $order->total, 29.83 );
+    is( $order->items->[0]->total, 12.49 );
+    is( $order->items->[1]->total, 16.49 );
+    is( $order->items->[2]->total, 0.85 );
+    is( $order->tax,               1.50 );
+    is( $order->total,             29.83 );
+
+    diag $order->receipt;
+}
+
+sub input_2 : Tests {
+    $order->add( Food->new( 'imported box of chocolates', 10.00 ) );
+    $order->add( Item->new( 'imported bottle of perfume', 47.50 ) );
+
+    $order->calculate();
+
+    is( $order->items->[0]->total, 10.50 );
+    is( $order->items->[1]->total, 54.65 );
+    is( $order->tax,               7.65 );
+    is( $order->total,             65.15 );
 
     diag $order->receipt;
 }
