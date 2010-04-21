@@ -3,9 +3,17 @@ use strict;
 use warnings;
 
 sub new {
-    my ($class, $price, $taxable) = @_;
+    my ( $class, $name, $price, $taxable ) = @_;
 
-    return bless {price => $price, taxable => $taxable}, $class;
+    return bless {
+        name  => $name  || 'Untitled',
+        price => $price || 0.00,
+        taxable => $taxable
+    }, $class;
+}
+
+sub name {
+    return shift->{name};
 }
 
 sub price {
