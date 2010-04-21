@@ -30,7 +30,7 @@ sub set_item_defaults : Tests(3) {
 
 sub add_item_to_order : Test {
     $order->add( Item->new );
-    is( scalar $order->items, 1 );
+    is( scalar @{$order->items}, 1 );
 }
 
 sub have_food : Test {
@@ -70,12 +70,12 @@ sub medical_is_not_taxable : Test {
 
 sub item_has_tax : Test {
     my $item = Item->new;
-    is($item->tax, 0);
+    is( $item->tax, 0 );
 }
 
 sub item_has_total : Test {
     my $item = Item->new;
-    is($item->total, 0);
+    is( $item->total, 0 );
 }
 
 ##########################
@@ -89,6 +89,10 @@ sub input_1 : Tests {
 
     $order->calculate();
 
+    is( $order->items->[0]->total, 12.49);
+    is( $order->items->[1]->total, 16.49);
+    is( $order->items->[2]->total, 0.85);
+    
     is( $order->tax,   1.50 );
     is( $order->total, 29.83 );
 

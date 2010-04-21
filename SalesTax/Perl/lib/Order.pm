@@ -8,26 +8,28 @@ sub new {
 }
 
 sub add {
-    push @{ shift->{items} }, shift;
+    push @{ shift->items }, shift;
 }
 
 sub items {
-    return @{ shift->{items} };
+    return shift->{items};
 }
 
 sub calculate {
     my $self = shift;
-    
-    $self->{tax} = 0;
+
+    $self->{tax}   = 0;
     $self->{total} = 0;
 
-    foreach ($self->items) {
-        $self->{total} += $_->price;
-
-        if ($_->taxable) {
-            $self->{tax} += nearest(.01, $_->price * 0.10);
-            $self->{total} += $self->{tax};
+    foreach ( @{ $self->items } ) {
+        if ( $_->taxable ) {
+            $_->{tax} = nearest( .01, $_->price * 0.10 );
         }
+
+        $_->{total} = $_->{tax} + $_->{price};
+        
+        $self->{tax} += $_->{tax};
+        $self->{total} += $_->{total};
     }
 }
 
@@ -40,11 +42,11 @@ sub total {
 }
 
 sub receipt {
-    my $self = shift;
+    my $self    = shift;
     my $receipt = "\n";
 
-    foreach ($self->items) {
-        $receipt .=  '1 ' . $_->name . ' at ' . $_->price . "\n";
+    foreach ( @{ $self->items } ) {
+        $receipt .= '1 ' . $_->name . ' at ' . $_->total . "\n";
     }
     $receipt .= 'Sales Taxes: ' . $self->tax . "\n";
     $receipt .= 'Total: ' . $self->total . "\n";
