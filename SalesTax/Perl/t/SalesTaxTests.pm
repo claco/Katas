@@ -3,6 +3,7 @@ use base 'Test::Class';
 use Test::More;
 use Order;
 use Item;
+use Food;
 
 my $order;
 
@@ -27,7 +28,12 @@ sub set_item_defaults : Tests(3) {
 
 sub add_item_to_order : Test {
     $order->add( Item->new );
-    is(scalar $order->items, 1);
+    is( scalar $order->items, 1 );
+}
+
+sub have_food : Test {
+    my $food = Food->new;
+    isa_ok( $food, 'Food' );
 }
 
 1;

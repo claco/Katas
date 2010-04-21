@@ -7,7 +7,7 @@ sub new {
 }
 
 sub add {
-    push @{shift->{items}}, shift
+    push @{ shift->{items} }, shift;
 }
 
 sub items {
