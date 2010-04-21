@@ -68,4 +68,21 @@ sub medical_is_not_taxable : Test {
     ok( !$medical->taxable );
 }
 
+##########################
+# INPUT/OUTPUT Tests
+##########################
+
+sub input_1 : Tests {
+    $order->add( Book->new( 'book',          12.49 ) );
+    $order->add( Item->new( 'music CD',      14.99 ) );
+    $order->add( Food->new( 'chocolate bar', 0.85 ) );
+
+    $order->calculate();
+
+    is( $order->tax,   1.50 );
+    is( $order->total, 29.83 );
+
+    diag $order->receipt;
+}
+
 1;
