@@ -5,6 +5,7 @@ use Order;
 use Item;
 use Food;
 use Book;
+use Medical;
 
 my $order;
 
@@ -55,6 +56,16 @@ sub have_book : Test {
 sub book_is_not_taxable : Test {
     my $book = Book->new;
     ok( !$book->taxable );
+}
+
+sub have_medical : Test {
+    my $medical = Medical->new;
+    isa_ok( $medical, 'Medical' );
+}
+
+sub medical_is_not_taxable : Test {
+    my $medical = Medical->new;
+    ok( !$medical->taxable );
 }
 
 1;
