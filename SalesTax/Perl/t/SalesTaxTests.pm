@@ -4,6 +4,7 @@ use Test::More;
 use Order;
 use Item;
 use Food;
+use Book;
 
 my $order;
 
@@ -44,6 +45,16 @@ sub food_is_not_taxable : Test {
 sub item_is_taxable : Test {
     my $item = Item->new;
     ok( $item->taxable );
+}
+
+sub have_book : Test {
+    my $book = Book->new;
+    isa_ok( $book, 'Book' );
+}
+
+sub book_is_not_taxable : Test {
+    my $book = Book->new;
+    ok( !$book->taxable );
 }
 
 1;

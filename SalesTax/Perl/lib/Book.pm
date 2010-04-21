@@ -1,4 +1,4 @@
-package Food;
+package Book;
 use strict;
 use warnings;
 use base 'Item';
