@@ -17,6 +17,10 @@ sub items {
 
 sub calculate {
     my $self = shift;
+    
+    $self->{tax} = 0;
+    $self->{total} = 0;
+
     foreach ($self->items) {
         $self->{total} += $_->price;
 
@@ -36,7 +40,16 @@ sub total {
 }
 
 sub receipt {
-    
+    my $self = shift;
+    my $receipt = "\n";
+
+    foreach ($self->items) {
+        $receipt .=  '1 ' . $_->name . ' at ' . $_->price . "\n";
+    }
+    $receipt .= 'Sales Taxes: ' . $self->tax . "\n";
+    $receipt .= 'Total: ' . $self->total . "\n";
+
+    return $receipt;
 }
 
 1;
