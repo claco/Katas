@@ -23,11 +23,11 @@ sub calculate {
 
     foreach ( @{ $self->items } ) {
         if ( $_->taxable ) {
-            $_->{tax} = nearest( .05, ($_->price*10)/100 );
+            $_->{tax} = Math::Round::nhimult( .05, ( $_->price * 10 ) / 100 );
         }
 
         if ( $_->name =~ /imported/i ) {
-            $_->{tax} += nearest( .05, ($_->price*5)/100 );
+            $_->{tax} += Math::Round::nhimult( .05, ( $_->price * 5 ) / 100 );
         }
 
         $_->{total} = $_->{tax} + $_->{price};

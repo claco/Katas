@@ -112,4 +112,22 @@ sub input_2 : Tests {
     diag $order->receipt;
 }
 
+sub input_3 : Tests {
+    $order->add( Item->new( 'imported bottle of perfume', 27.99 ) );
+    $order->add( Item->new( 'bottle of perfume',          18.99 ) );
+    $order->add( Medical->new( 'packet of headache pills', 9.75 ) );
+    $order->add( Food->new( 'imported box of chocolates', 11.25 ) );
+
+    $order->calculate();
+
+    is( $order->items->[0]->total, 32.19 );
+    is( $order->items->[1]->total, 20.89 );
+    is( $order->items->[2]->total, 9.75 );
+    is( $order->items->[3]->total, 11.85 );
+    is( $order->tax,               6.70 );
+    is( $order->total,             74.68 );
+
+    diag $order->receipt;
+}
+
 1;
