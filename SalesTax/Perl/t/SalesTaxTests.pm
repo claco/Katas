@@ -68,6 +68,16 @@ sub medical_is_not_taxable : Test {
     ok( !$medical->taxable );
 }
 
+sub item_has_tax : Test {
+    my $item = Item->new;
+    is($item->tax, 0);
+}
+
+sub item_has_total : Test {
+    my $item = Item->new;
+    is($item->total, 0);
+}
+
 ##########################
 # INPUT/OUTPUT Tests
 ##########################
