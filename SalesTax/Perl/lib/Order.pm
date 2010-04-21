@@ -2,6 +2,8 @@ package Order;
 use strict;
 use warnings;
 
-sub new {};
+sub new {
+    return bless {}, shift;
+}
 
 1;

@@ -4,7 +4,7 @@ use Test::More;
 use Order;
 
 sub have_order : Test {
-    my $order = Order->new;
+    isa_ok( Order->new, 'Order' );
 }
 
 1;
