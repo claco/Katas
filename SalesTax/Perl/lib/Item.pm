@@ -8,7 +8,7 @@ sub new {
     return bless {
         name  => $name  || 'Untitled',
         price => $price || 0.00,
-        taxable => $taxable
+        taxable => defined($taxable) ? $taxable : 1
     }, $class;
 }
 

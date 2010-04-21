@@ -38,7 +38,12 @@ sub have_food : Test {
 
 sub food_is_not_taxable : Test {
     my $food = Food->new;
-    isnt($food->taxable);
+    ok( !$food->taxable );
+}
+
+sub item_is_taxable : Test {
+    my $item = Item->new;
+    ok( $item->taxable );
 }
 
 1;
