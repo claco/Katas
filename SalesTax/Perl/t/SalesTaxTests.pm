@@ -36,4 +36,9 @@ sub have_food : Test {
     isa_ok( $food, 'Food' );
 }
 
+sub food_is_not_taxable : Test {
+    my $food = Food->new;
+    isnt($food->taxable);
+}
+
 1;
