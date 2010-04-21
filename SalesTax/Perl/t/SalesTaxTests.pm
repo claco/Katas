@@ -25,4 +25,9 @@ sub set_item_defaults : Tests(3) {
     is( $item->taxable, 1 );
 }
 
+sub add_item_to_order : Test {
+    $order->add( Item->new );
+    is(scalar $order->items, 1);
+}
+
 1;
