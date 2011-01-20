@@ -7,7 +7,9 @@ use warnings;
 Creates a new game.
 
 =cut
+sub foo {
 
+}
 sub new {
     return bless { rolls => [] }, shift;
 }
